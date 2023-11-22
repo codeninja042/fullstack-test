@@ -1,17 +1,10 @@
+// Home.tsx
 import React from "react";
-import {Paper, Stack} from "@mui/material";
 import ArticleList from "./ArticleList";
-import {AnalyzedChart} from "../_partial";
+import {PageLayout} from "../_partial/PageLayout";
 
-export default function Home() {
-  return (
-    <Stack spacing={2} sx={{padding: 2}}>
-      <Paper>
-        <AnalyzedChart />
-      </Paper>
-      <Paper>
-        <ArticleList />
-      </Paper>
-    </Stack>
-  );
-}
+const Home: React.FC = () => {
+  return <PageLayout mainComponent={<ArticleList />} />;
+};
+
+export default Home;
