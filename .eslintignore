@@ -1,0 +1,12 @@
+# Ignore the server folder
+server/
+
+# Ignore all node_modules folders
+node_modules/
+
+src/reportWebVitals.ts
+src/setupTests.tsx
+
+build-dataset.js
+
+craco.config.js
