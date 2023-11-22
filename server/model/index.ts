@@ -1,7 +1,10 @@
-import {ArticleData, ArticleWithTotal, TrafficData} from "../../src/interfaces";
+import {ArticleData, ArticleWithTotal, TrafficData} from "../types";
 import rawData from "../dataset.json";
-import {getLastWeekDays, getDaysInCurrentMonth} from "../../src/utils";
-import {initialiseTrafficObject} from "../../src/utils";
+import {
+  getLastWeekDays,
+  initialiseTrafficObject,
+  getDaysInCurrentMonth,
+} from "../../src/utils";
 
 interface ITrafficData {
   traffic_data: ArticleData[];

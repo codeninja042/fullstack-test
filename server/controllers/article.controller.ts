@@ -1,5 +1,5 @@
 import {Request, Response, NextFunction} from "express";
-import {ArticleData, PaginatedResponseBody} from "../../src/interfaces";
+import {ArticleData, PaginatedResponseBody} from "../types";
 
 // Assuming data is loaded here from your JSON file
 import {trafficModel} from "../model";
